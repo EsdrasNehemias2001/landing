@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('https://fonts.google.com/specimen/Poppins');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins';
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrap_logo > img {
+    width: 200px;
+    margin: 10px;
+    margin-bottom: 60px;
+}
+
+.btn_primary {
+    text-decoration: none;
+    color: #ff52bf;
+    border: 1px solid #ff52bf;
+    padding: 5px 20px;
+    border-radius: 20px;
+    box-shadow: #ff52bf 0px 0px 2px;
+}
+
+.title_main {
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.text_parrafo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn_free {
+    background-color: #ff52bf;
+    padding: 8px 30px;
+    color: white;
+    border-radius: 20px;
+    box-shadow: #ff52bf 0px 0px 2px;
+    margin-bottom: 20px;
+}
+
+.img_main {
+    width: 100%;
+}
+
+.wrap_header_content {
+    padding: 20px 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
