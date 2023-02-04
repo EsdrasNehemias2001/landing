@@ -10,17 +10,21 @@
 
 body {
     font-family: 'Poppins';
-    padding: 20px;
 }
 
 a {
     text-decoration: none;
 }
 
+.wrap_logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .wrap_logo > img {
     width: 200px;
     margin: 10px;
-    margin-bottom: 60px;
 }
 
 .btn_primary {
@@ -50,7 +54,8 @@ a {
     color: white;
     border-radius: 20px;
     box-shadow: #ff52bf 0px 0px 2px;
-    margin-bottom: 20px;
+    display: inline-block;
+    margin-bottom: 40px;
 }
 
 .img_main {
@@ -59,7 +64,83 @@ a {
 
 .wrap_header_content {
     padding: 20px 40px;
+    text-align: center;
 }
+
+.container_gadgets {
+    padding: 20px 40px;
+}
+
+.gadget {
+    margin-bottom: 100px;
+}
+
+.gadget_title {
+    font-size: 90px;
+    text-align: center;
+}
+
+.gadget_img {
+    margin-left: 110px;
+}
+
+.gadget_descripcion {
+    text-align: center;
+}
+
+.services {
+    padding: 20px;
+    text-align: center;
+}
+
+.service_img {
+    width: 75%;
+    margin-bottom: 20px;
+}
+
+.service_title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.service_descripcion {
+    padding: 40px;
+}
+
+.comunity {
+    text-align: center;
+}
+
+.comunity_title {
+    margin-bottom: 40px;
+    font-weight: 700px;
+    font-size: 42px;
+    text-align: center;
+}
+
+.footer{
+    background-image: url(/images/bg-footer-top-mobile.svg);
+    background-color: #00252e;
+    background-size: contain;
+    background-position-y:100% ;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
