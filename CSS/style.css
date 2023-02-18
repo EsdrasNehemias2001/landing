@@ -118,6 +118,12 @@
       padding: 5rem;
   }
 
+  .section-top-service-1,
+  .section-bottom-service-1{
+    display: block;
+    width: 100%;
+  }
+
   .first,
   .third {
     background: hsl(207, 100%, 98%);
@@ -172,7 +178,6 @@
       padding: 80px;
       background: hsl(192, 100%, 9%);
       color: white;
-      font-size: 20.5px;
       display: flex;
       justify-content: space-between;
   }
