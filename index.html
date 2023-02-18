@@ -15,13 +15,13 @@
 </head>
 
 <body>
-  <header class="header">
-    <div class="wrap_logo">
-      <img src="images/logo.svg" alt="Logotipo">
-      <div>
-        <a href="#" class="btn_primary">Try it free</a>
-      </div>
+  <div class="wrap_logo">
+    <img src="images/logo.svg" alt="Logotipo">
+    <div>
+      <a href="#" class="btn_primary">Try it free</a>
     </div>
+  </div>
+  <header class="header">
     <div class="wrap_header_content">
       <h1 class="title_main">Build The Community Your Fans Will Love</h1>
       <p class="text_parrafo">
@@ -31,8 +31,6 @@
       <a href="#" class="btn_free">Get Started For Free</a>
       <img class="img_main" src="images/screen-mockups.svg" alt="mockups">
     </div>
-  </header>
-  <main>
     <section class="container_gadgets">
       <div class="gadget">
         <img class="gadget_img" src="images/icon-communities.svg" alt="communities">
@@ -46,33 +44,45 @@
         <p class="gadget_descripcion">Messages Sent</p>
       </div>
     </section>
+  </header>
+  <main>
 
     <section class="services">
       <div class="service">
-        <img class="service_img" src="images/illustration-grow-together.svg" alt="">
-        <h3 class="service_title">Grow Together</h3>
-        <p class="service_descripcion">
-          Generate meaningful discussions with your audience and build a strong, loyal community.
-          Think of the insightful conversations you miss out on with a feedback form.
-        </p>
+        <div class="service_text first">
+          <img class="service_img" src="images/illustration-grow-together.svg" alt="">
+          <section>
+            <h3>Grow Together</h3>
+            <p>
+              Generate meaningful discussions with your audience and build a strong, loyal community.
+              Think of the insightful conversations you miss out on with a feedback form.
+            </p>
+          </section>
+        </div>
       </div>
 
-      <div class="service">
+      <div class="service service_text">
         <img class="service_img" src="images/illustration-flowing-conversation.svg" alt="conversation">
-        <h3 class="service_title">Flowing Conversations</h3>
-        <p class="service_descripcion">
-          You wouldn't paginate a conversation in real life, so why do it online? Our threads have
-          just-in-time loading for a more natural flow.
-        </p>
+        <section>
+          <h3>Flowing Conversations</h3>
+          <p>
+            You wouldn't paginate a conversation in real life, so why do it online? Our threads have
+            just-in-time loading for a more natural flow.
+          </p>
+        </section>
       </div>
 
       <div class="service">
-        <img class="service_img" src="images/illustration-your-users.svg" alt="">
-        <h3 class="service_title">Your Users</h3>
-        <p class="service_descripcion">
-          It takes no time at all to integrate Huddle with your app's authentication solution. This means,
-          once signed in to your app, your users can start chatting immediately.
-        </p>
+        <div class="service_text third">
+          <img class="service_img" src="images/illustration-your-users.svg" alt="">
+          <section>
+            <h3>Your Users</h3>
+            <p>
+              It takes no time at all to integrate Huddle with your app's authentication solution. This means,
+              once signed in to your app, your users can start chatting immediately.
+            </p>
+          </section>
+        </div>
       </div>
     </section>
 
