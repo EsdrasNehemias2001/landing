@@ -26,6 +26,7 @@
   h2,
   h3 {
       font-family: 'Poppins', sans-serif;
+      margin-bottom: 24px;
   }
 
   a {
@@ -117,6 +118,11 @@
       padding: 5rem;
   }
 
+  .first,
+  .third {
+    background: hsl(207, 100%, 98%);
+  }
+
   .first img,
   .third img {
       order: 2;
@@ -144,13 +150,16 @@
   }
 
   .comunity {
-      text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: max-content;
+    margin: 160px auto;
   }
 
   .comunity_title {
-      margin-bottom: 40px;
       font-weight: 700px;
-      font-size: 42px;
+      font-size: 32px;
       text-align: center;
   }
 
