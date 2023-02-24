@@ -119,14 +119,14 @@
   }
 
   .section-top-service-1,
-  .section-bottom-service-1{
-    display: block;
-    width: 100%;
+  .section-bottom-service-1 {
+      display: block;
+      width: 100%;
   }
 
   .first,
   .third {
-    background: hsl(207, 100%, 98%);
+      background: hsl(207, 100%, 98%);
   }
 
   .first img,
@@ -156,11 +156,11 @@
   }
 
   .comunity {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: max-content;
-    margin: 160px auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: max-content;
+      margin: 160px auto;
   }
 
   .comunity_title {
@@ -252,10 +252,113 @@
   }
 
   @media (max-width: 769px) {
+      body {
+          font-size: 16px;
+      }
+
+      .wrap_logo {
+          padding: 48px;
+      }
+
+      #wrap_logo_logo {
+          max-width: 160px;
+      }
+
+      .btn_primary {
+          font-size: 14px;
+          padding: 6.5px 19px;
+      }
+
+      .header h1 {
+          font-size: 32px;
+      }
+
+      .header p {
+          margin: 0 auto 32px auto;
+      }
+
+      .btn_free {
+          padding: 16px 48px;
+      }
+
+      .img_main {
+          padding: 0 48px;
+      }
+
+      .container_gadgets {
+          flex-direction: column;
+          gap: 80px;
+          align-items: center;
+      }
+
+      .gadget {
+          margin: 0 auto;
+          padding: 0 0;
+      }
+
+      .service_text {
+          grid-template-columns: 1fr;
+          text-align: center;
+          padding: 80px 32px;
+      }
+
+      .service_text h3 {
+          font-size: 27px;
+      }
+
+      .first img,
+      .third img {
+          order: 1;
+      }
+
+      .first section,
+      .third section {
+          order: 2;
+      }
+
+      .comunity h3 {
+          font-size: 17px;
+      }
 
       .footer {
           flex-direction: column-reverse;
-          gap: 5rem;
-          padding: 5rem 3rem;
+          gap: 80px;
+          padding: 80px 48px;
+      }
+
+      .footer_column,
+      .footer_column_2 section {
+          margin: 0;
+      }
+
+      #footer_logo {
+        max-width: 240px;
+        margin-bottom: 32px;
+      }
+
+      .telefono,
+      .email {
+        margin: 24px auto;
+      }
+
+      .media-icons i {
+        font-size: 32px;
+      }
+
+      .footer_column_2 form {
+        display: grid;
+        grid-template-columns: auto;
+        justify-items: end;
+        gap: 1rem;
+        margin-top: 2rem;
+        margin-left: 0;
+      }
+
+      .footer_column_2 form .infield {
+        width: 100%;
+      }
+
+      .infield input {
+        width: 100%;
       }
   }
